@@ -11,8 +11,8 @@
     <div id="name">
 
     </div>
-    <!-- <div>
-      <n-popover trigger="click" :duration="500">
+    <div>
+      <n-popover trigger="hover"  :to="element">
         <template #trigger>
           <n-button>悬浮111</n-button>
         </template>
@@ -22,7 +22,7 @@
       <n-dropdown trigger="click" :options="options" @select="handleSelect" :to="element">
         <n-button>找个地方休息</n-button>
       </n-dropdown>
-    </div> -->
+    </div>
     <div style="width:300px" ref="popover">
       <n-select v-model:value="value" to="__disabled__" :options="options" />
     </div>

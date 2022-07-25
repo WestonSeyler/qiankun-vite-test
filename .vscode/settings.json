@@ -130,5 +130,8 @@
       "source.fixAll.eslint": false,
       "source.fixAll.stylelint": true
     }
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
   }
 }
