@@ -1,0 +1,56 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn
+
+PATH: 
+  /usr/local/mongodb/bin:/Library/Frameworks/Python.framework/Versions/3.10/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/mongodb/bin:/Library/Frameworks/Python.framework/Versions/3.10/bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  16.15.1
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  Error: ENOENT: no such file or directory, copyfile '/Users/macbook/Library/Caches/Yarn/v6/npm-eslint-utils-1.4.3-74fec7c54d0776b6f67e0251040b5806564e981f-integrity/node_modules/eslint-utils/LICENSE' -> '/Users/macbook/Desktop/qiankun-vite-test/node_modules/eslint/node_modules/eslint-utils/LICENSE'
+
+npm manifest: 
+  {
+    "name": "my-vue-app",
+    "version": "0.0.0",
+    "scripts": {
+      "start": "vite",
+      "dev": "vite",
+      "build": "vite build",
+      "serve": "vite preview"
+    },
+    "dependencies": {
+      "nprogress": "^0.2.0",
+       "qiankun": "^2.7.0",
+      "vue": "^3.2.31",
+      "vuex": "^4.0.2",
+      "vue-router": "^4.0.11"
+    },
+    "devDependencies": {
+      "@vitejs/plugin-vue": "^1.6.0",
+       "@vue/compiler-sfc": "^3.2.31",
+      "vite": "^2.5.8",
+      "eslint": "^7.32.0",
+      "eslint-plugin-import": "^2.24.2",
+      "eslint-plugin-node": "^11.1.0",
+      "eslint-plugin-prettier": "^4.0.0",
+      "eslint-plugin-promise": "^5.1.0",
+      "eslint-plugin-standard": "^5.0.0",
+      "eslint-plugin-vue": "^7.17.0",
+      "prettier": "^2.4.1",
+      "sass": "^1.41.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

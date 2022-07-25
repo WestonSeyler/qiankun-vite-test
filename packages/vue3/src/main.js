@@ -4,7 +4,11 @@ import { createRouter, createWebHistory } from 'vue-router';
 import App from './App.vue';
 import routes from './router';
 import store from './store';
-
+import naiveUI from 'naive-ui'
+import Antd from 'ant-design-vue';
+import 'ant-design-vue/dist/antd.css';
+import ElementPlus from 'element-plus'
+import 'element-plus/dist/index.css'
 let router = null;
 let instance = null;
 let history = null;
@@ -21,7 +25,10 @@ function render(props = {}) {
 
   instance = createApp(App);
   instance.use(router);
+  instance.use(naiveUI)
+  instance.use(ElementPlus);
   instance.use(store);
+  instance.use(Antd)
   instance.mount(container ? container.querySelector('#app') : '#app');
 }
 

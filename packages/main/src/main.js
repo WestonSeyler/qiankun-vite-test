@@ -12,7 +12,7 @@ function loader(loading) {
   if (instance.isLoading) {
     instance.isLoading = loading
   }
-  }
+}
 // 给子应用配置加上loader方法
 const apps = microApps.map(item => {
     return {
@@ -41,4 +41,10 @@ registerMicroApps(apps, {
     ]
   });
   setDefaultMountApp("/vue3Vite");
-  start();
+  start(
+    {
+      sandbox:{
+        strictStyleIsolation:true
+      }
+    }
+  );
