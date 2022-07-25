@@ -40,7 +40,7 @@ registerMicroApps(apps, {
       }
     ]
   });
-  setDefaultMountApp("/vue3Vite");
+  setDefaultMountApp("/vue3");
   start(
     {
       sandbox:{
